@@ -1,0 +1,65 @@
+		body
+		{
+			background-color: #ffcf79;
+		}
+		h1{
+			padding: 5px;
+			color: #ffcf79;
+			background-color: green;
+			font-family: "Bebas Neue", monospace;
+		}
+		main
+		{
+
+		}
+		img
+		{
+			//display: block;
+			width: 350px;
+			//float: left;
+			border: 10px solid black;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		video
+		{
+			border: 10px solid black;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 20px;
+			margin-right: 20px;
+			width: 400px;
+			//display: block;
+		}
+		
+		h3{color: grey;}
+		footer
+		{
+			color: black;
+		}
+		nav
+		{
+			display: block;
+			word-spacing: 10px;
+			text-align: center;
+			font-family: Lobster;
+		}
+		footer
+		{
+			font-family: cursive;
+			font-weight: bold;
+		}
+		a:link
+	{
+		color: blue;
+	}
+	a:visited
+	{
+		color: green;
+	}
+	a:hover
+	{
+		color: orange;
+	}

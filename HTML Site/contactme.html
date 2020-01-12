@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	<title>Contact Me</title>
+	<link rel="stylesheet" type="text/css" href="contactme.css">
+</head>
+<body>
+	<h1 align="center" title="Designing Webpage">DESIGNING WEBPAGE</h1>
+	<nav>
+	<a href="index.html" title="HomePage" >Home</a>
+	<a href="profile.html" title="Mr Ayush's Profile">Profile</a>
+	<a href="gallery.html" title="Mr Ayush's Gallery">Gallery</a>
+	<a href="contactme.html" title=" Contact Mr Ayush">Contact-Me</a>
+	</nav>
+	
+	<h3 align="center">Please fill form sincerely</h3>
+	<main>
+	<form action="Thanks.html">
+		<fieldset>
+			<legend>Enter your details:</legend>
+			<input type="text" name="fname" autofocus required placeholder="First Name">
+			<input type="text" name="lname" required placeholder="Last Name"><br><br>
+			<input type="email" name="useremail" required placeholder="Email Address">
+			<input type="tel" name="usernum" minlength = "10" maxlength = "10" required placeholder="Mobile number"><br>
+				<br>
+			<label for="Male">
+				Male<input type="radio" name="gender" id="Male" checked>
+			</label>
+			<label for="Female">
+				Female<input type="radio" name="gender" id="Female">
+			</label>
+			<label for="Others">
+				Others<input type="radio" name="gender" id="Others">
+			</label>
+			<br><br>
+			Date Of Birth:<input type="date" name="userdob" required>
+			Country:
+			<select>
+				<option>India</option>
+				<option>China</option>
+				<option>Nepal</option>
+			</select>
+			<br><br>
+			Recent Photos: <input type="file" name="userfile" accept="image/*">
+			<br><br>
+			Suggestions:
+			<br>
+			<textarea></textarea>
+			<br><br>
+			<input type="submit" name="submituser" value="SUBMIT">
+			<input type="reset" name="resetuser" value="RESET">
+		</fieldset>
+
+
+	</form>
+</main>
+	<address>
+		<footer>
+			<p align="center">Copyright: <a href="mailto:ayushmainali11@gmail.com">Ayush Mainali, 2019</a></p>
+		</footer>
+	</address>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+	body
+		{
+			background-color: #ffcf79;
+		}
+	h1
+	{
+		color: #ffcf79;
+		background-color: green;
+		font-family: "Bebas Neue";
+	}
+	#navigation
+	{
+		display: block;
+		text-align: center;
+		word-spacing: 10px;
+		font-family: "Lobster";
+	}
+	#paragraphs
+	{
+		font-family: cursive;
+		line-height: 2em;
+		font-style: italic;
+	}
+	table,th, tr, td
+	{
+		border: 1px solid green;
+		text-align: center;
+		color: blue;
+	}
+	.purple
+	{
+		color: purple;
+	}
+	.red
+	{
+		color: red;
+	}
+	#page-bottom
+	{
+		font-family: cursive;
+		font-weight: bold;
+	}
+	a:link
+	{
+		color: blue;
+	}
+	a:visited
+	{
+		color: green;
+	}
+	a:hover
+	{
+		color: orange;
+	}

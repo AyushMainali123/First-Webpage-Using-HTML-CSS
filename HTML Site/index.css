@@ -1,0 +1,77 @@
+body
+{
+	background-color: #ffcf79;
+}
+h1
+{
+	padding: 5px;
+	font-family: "Bebas Neue", monospace;
+	background-color: green;
+	color: #ffcf79;
+	text-align: center;
+}
+.img-border{
+	display: block;
+	border: 3mm outset green;   /*Border styles: solid, dotted, ridge, groove, double, dotted, inset, outset*/
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3
+{
+	color: grey;
+}
+nav
+{
+	display: block;
+	text-align: center;
+	font-family: Lobster, monospace;
+	word-spacing: 10px;
+}
+
+#main-body
+{	
+	font-family: cursive;
+	font-style: italic;
+	line-height: 2em;
+	margin-top: 30px;
+	color: purple;
+}
+.blue-paragraph
+{	
+
+	color: blue;
+}
+
+.red-paragraph
+{
+	color: red;
+}
+
+.purple-paragraph
+{
+	color: purple;
+}
+
+footer
+{
+	font-family: cursive;
+	font-weight: bold;
+}
+a:link
+{
+	color: blue;
+}
+a:visited
+{
+	color: green;
+}
+a:hover
+{
+	color: orange;
+}
+span
+{
+	background-color: yellow;
+}

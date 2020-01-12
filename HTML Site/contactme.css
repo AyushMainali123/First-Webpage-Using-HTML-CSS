@@ -1,0 +1,53 @@
+	body
+		{	
+			
+			background-color: #ffcf79;}
+		h3
+		{
+			color: grey;
+		}
+		h1
+		{
+			background-color: green;
+			padding: 5px;
+			color:#ffcf79;
+			font-family: "Bebas Neue", monospace;
+		}
+		footer
+		{
+			color: black;
+		}
+		form
+		{
+			text-align: center;
+			font-family: "lobster", cursive;
+		}
+		h3
+		{
+			font-family: cursive;
+			font-weight: bolder;
+		}
+		nav
+		{
+			display: block;
+			text-align: center;
+			word-spacing: 10px;
+			font-family: "Lobster";
+		}
+		footer
+		{
+			font-family: cursive;
+			font-weight: bold;
+		}
+			a:link
+	{
+		color: blue;
+	}
+	a:visited
+	{
+		color: green;
+	}
+	a:hover
+	{
+		color: orange;
+	}
